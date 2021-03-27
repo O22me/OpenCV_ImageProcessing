@@ -5,11 +5,11 @@ using namespace std;
 
 int main(void)
 {
-	Size_<int> sz1(100, 200);
-	Size_<float> sz2(192.3f, 25.3f);
-	Size_<double> sz3(100.2, 30.9);
+	Size_<int> sz1(100, 200);			//int형 Size_클래스 선언(생성자 초기화)
+	Size_<float> sz2(192.3f, 25.3f);	//float형 Size_클래스 선언
+	Size_<double> sz3(100.2, 30.9);	//double형 Size_클래스 선언
 
-	Size sz4(120, 69);
+	Size sz4(120, 69);					//
 	Size2f sz5(0.3f, 0.f);
 	Size2d sz6(0.25, 0.6);
 

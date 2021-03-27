@@ -5,7 +5,7 @@ using namespace std;
 
 int main(void)
 {
-	Mat image(300, 500, CV_8UC1, Scalar(255));	
+	Mat image(300, 500, CV_8UC1, Scalar(255));	//(세로, 가로, 포맷형식, 명암(흰색));
 	Point2f center(250, 150), pts[4];					//중심점 설정
 	Size2f size(300, 100);
 	RotatedRect rot_rect(center, size, 0);
