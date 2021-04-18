@@ -1,27 +1,14 @@
 #include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
 
 using namespace cv;
 using namespace std;
 
 int main(void)
 {
-    float data[] = {
-       0, 1, 1,
-       1, 1, 2,
-       0, 0, 3
-    };
-    float Qdata[] = {
-        0, 1, 0,
-        1, 0, 0,
-        0, 0, 1
-    };
-    float Rdata[] = {
-        1, 1, 2,
-        0, 1, 1,
-        0, 0, 3
-    };
+	Mat score = imread("H:/2021년 4학년 1학기/영상처리/4장이미지/score.jpg", 0);
+	Rect roi(10, 10, 3, 3);
 
-    //bool checked = solve(Qdata, Rdata, data, DECOMP_QR);
-
-    return 0;
+	cout << "score = " << endl << score.row(100) << endl;
+	return 0;
 }

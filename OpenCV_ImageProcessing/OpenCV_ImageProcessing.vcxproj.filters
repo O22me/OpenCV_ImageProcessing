@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Example\4.6.4_FileStorage.cpp">
+    <ClCompile Include="Assn\Assignment_06_SVDscore.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Assn\Assignment_06_SVDwrite.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
