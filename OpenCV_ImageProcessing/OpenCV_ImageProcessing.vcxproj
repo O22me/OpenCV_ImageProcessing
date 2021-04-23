@@ -19,8 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assn\Assignment_06_SVDscore.cpp" />
-    <ClCompile Include="Assn\Assignment_06_SVDwrite.cpp" />
+    <ClCompile Include="Example\Chapter05_ArrayOperation\5.4.2_min_max.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
