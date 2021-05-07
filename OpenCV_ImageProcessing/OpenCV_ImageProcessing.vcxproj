@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Example\Chapter05_ArrayOperation\5.4.2_min_max.cpp" />
+    <ClCompile Include="Example\Chapter05_ArrayOperation\5.5.5_reduce.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
