@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Example\Chapter05_ArrayOperation\5.5.5_reduce.cpp">
+    <ClCompile Include="Example\Chapter07_Filter\7.1.2_bluring.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

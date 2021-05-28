@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Example\Chapter05_ArrayOperation\5.5.5_reduce.cpp" />
+    <ClCompile Include="Example\Chapter07_Filter\7.1.2_bluring.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
